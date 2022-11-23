@@ -21,32 +21,24 @@ const markHigherBMITwo = dataTwoMark > dataTwoJohn;
 
 //Console logging final BMI for each data set
 
-console.log(dataOneMark);
-console.log(dataOneJohn);
-console.log(dataTwoMark);
-console.log(dataTwoJohn);
+console.log(dataOneMark), (dataOneJohn), (dataTwoMark), (dataTwoJohn);
 
 //Console logging boolean if Mark's BMI is higher than John's
 
-console.log(markHigherBMIOne);
-console.log(markHigherBMITwo);
+console.log(markHigherBMIOne), (markHigherBMITwo);
 
 //Coding challenge two
 
 //If-then statement for BMI comparison
 
 if (dataOneMark > dataOneJohn) {
-    console.log(`For data set one, Mark's BMI (${dataOneMark.toFixed(2)}) is higher than John's (${dataOneJohn.toFixed(2)}).`)
-    window.alert(`For data set one, Mark's BMI (${dataOneMark.toFixed(2)}) is higher than John's (${dataOneJohn.toFixed(2)}).`);
+    console.log(`For data set one, Mark's BMI (${dataOneMark.toFixed(2)}) is higher than John's (${dataOneJohn.toFixed(2)}).`);
 } else {
-    console.log(`For data set one, John's BMI (${dataOneJohn.toFixed(2)}) is higher than Mark's (${dataOneMark.toFixed(2)}).`)
-    window.alert(`For data set one, John's BMI (${dataOneJohn.toFixed(2)}) is higher than Mark's (${dataOneMark.toFixed(2)}).`);
+    console.log(`For data set one, John's BMI (${dataOneJohn.toFixed(2)}) is higher than Mark's (${dataOneMark.toFixed(2)}).`);
 }
 
 if (dataTwoMark > dataTwoJohn) {
-    console.log(`For data set two, Mark's BMI (${dataTwoMark.toFixed(2)}) is higher than John's (${dataTwoJohn.toFixed(2)}).`)
-    window.alert(`For data set two, Mark's BMI (${dataTwoMark.toFixed(2)}) is higher than John's (${dataTwoJohn.toFixed(2)}).`);
+    console.log(`For data set two, Mark's BMI (${dataTwoMark.toFixed(2)}) is higher than John's (${dataTwoJohn.toFixed(2)}).`);
 } else {
-    console.log(`For data set two, John's BMI (${dataTwoJohn.toFixed(2)}) is higher than Mark's (${dataTwoMark.toFixed(2)}).`)
-    window.alert(`For data set two, John's BMI (${dataTwoJohn.toFixed(2)}) is higher than Mark's (${dataTwoMark.toFixed(2)}).`);
+    console.log(`For data set two, John's BMI (${dataTwoJohn.toFixed(2)}) is higher than Mark's (${dataTwoMark.toFixed(2)}).`);
 }
